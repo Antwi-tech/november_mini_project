@@ -1,14 +1,12 @@
-<div align="center">
-<img width="30%" src="https://user-images.githubusercontent.com/72341453/134747028-7e2d90cc-a92f-4f66-815e-54a0d50cca54.PNG">
 
-# StudyBuddy
-</div>
+# november_mini_project
+This repository holds our November mini-project
+
 
 ### Cloning the repository
 
 --> Clone the repository using the command below :
 ```bash
-git clone https://github.com/divanov11/StudyBud.git
 
 ```
 
@@ -17,7 +15,7 @@ git clone https://github.com/divanov11/StudyBud.git
 cd StudyBud
 
 ```
-
+This is only needed for running this app locally
 --> Create a virtual environment :
 ```bash
 # Let's install virtualenv first
@@ -75,4 +73,5 @@ python manage.py runserver
 </td>
 </table>
 
+Thank you @Divanov 11 for this project
 
