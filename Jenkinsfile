@@ -10,7 +10,7 @@ pipeline {
 
         stage("Checkout code") {
             steps {
-                git branch: 'group_e',
+                git branch: 'main',
                     url: 'https://github.com/women-techsters-fellowship/november_mini_project.git'
             }
         }
