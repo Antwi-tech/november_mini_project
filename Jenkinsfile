@@ -26,8 +26,8 @@ pipeline {
                 ]) {
                     sh '''
                         docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
-                        docker build -t $DOCKER_USERNAME/group_e:v1 .
-                        docker push $DOCKER_USERNAME/group_e:v1
+                        docker build -t $DOCKER_USERNAME/django-app:v1 .
+                        docker push $DOCKER_USERNAME/django-app:v1
                     '''
                 }
             }
